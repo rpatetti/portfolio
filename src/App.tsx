@@ -1,7 +1,13 @@
-import Teste from './Teste'
+import Sidebar from './containers/Sidebar'
+import EstiloGlobal from './styles'
 
 function App() {
-  return <Teste />
+  return (
+    <>
+      <EstiloGlobal />
+      <Sidebar />
+    </>
+  )
 }
 
 export default App
